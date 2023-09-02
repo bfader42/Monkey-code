@@ -318,7 +318,7 @@ champion_name = ["Aatrox"; "Ahri"; "Akshan"; "Aphelios"; "Ashe"; "Azir"; "Belvet
 "Tristana"; "Urgot"; "Velkoz"; "Vi"; "Viego"; "Warwick"; "Yasuo"; "Zed"; "Zeri"];
 % 
 incomplete_traits = 2;
-while incomplete_traits > 0 % Change this value to 1 to make the code complete in 1-5 seconds consistently
+while incomplete_traits > 1 % Change this value to 0 to make the code give a better value, but it will take longer
 % Synergy checking code
 set = cell(1,8);            % Pre-allocate set
 rgen = randperm(58,8);      % Generate random set of 8 numbers from 1 to 58
